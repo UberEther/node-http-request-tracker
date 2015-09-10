@@ -1,0 +1,35 @@
+{
+  "name": "node-http-request-tracker",
+  "version": "0.1.0",
+  "description": "Class to track current, recent, and long-running requests within a Node HTTP server",
+  "main": "lib",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/UberEther/node-http-request-tracker.git"
+  },
+  "author": {
+    "name": "Michael Samblanet",
+    "email": "samblanetm@uberether.com",
+    "url": "http://github.com/msamblanet/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/UberEther/node-http-request-tracker/issues"
+  },
+  "homepage": "https://github.com/UberEther/node-http-request-tracker",
+  "scripts": {
+    "test": "mocha",
+    "test-cov": "istanbul cover --config test/istanbul.yml node_modules/mocha/bin/_mocha"
+  },
+  "dependencies": {
+    "coffee-script": "^1.9.2",
+    "capped-array": "^0.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.0",
+    "chai": "^3.2.0",
+    "rewire": "^2.3.4",
+    "istanbul": "^0.3.5",
+    "coffee-coverage": "^0.6.3"
+  }
+}
